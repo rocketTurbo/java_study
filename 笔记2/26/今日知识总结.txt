@@ -1,0 +1,26 @@
+一、XML
+1.XML怎么编写，语法规范
+2.XML的约束(了解)
+3.XML的解析
+	DOM4J
+		迭代器：了解
+		elements()方法:必须掌握
+	XPATH
+		selectSingleNode(路径)
+		selectNodes(路径)，最重要掌握路径的写法
+		
+二、动态代理
+	API
+	Proxy.newProxyInstance(类加载器,interfaces,invocationHandler的实现类(匿名内部类))
+	
+	new InvocationHandler(){
+		public Object invoke(proxy,method,args){
+			//第一个参数表示代理对象本身
+			//第二个参数表示代理对象调用的方法
+			//第三个参数表示代理对象调用的方法中传入的参数
+			
+			//返回值表示代理对象调用的方法的返回值
+			return null;
+		}
+	}
+	

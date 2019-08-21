@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<person>
+	<id>0001</id>
+	<name>aobama</name>
+	<age>58</age>
+	<sex info="male"/>
+</person>

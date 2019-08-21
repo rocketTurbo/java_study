@@ -1,0 +1,35 @@
+JS的基础
+
+1.JS的变量声明
+var 变量名 = 变量值
+
+2.JS的数据类型
+基本数据类型:string、number、boolean、null、undefined
+引用数据类型:所有new出来的对象都是引用数据类型
+
+3.基本数据类型之间的相互转换
+3.1 string转number:parseInt()和parseFloat()方法
+3.2 number转string:toString()
+3.3 number和string转boolean
+
+4.JS中的运算符
+"==="和"=="
+"!="和"!=="
+
+5.JS中的逻辑语句
+if,for,while,switch
+
+6.JS中的函数(重点)
+6.1 普通函数
+6.2 匿名函数
+
+7. JS的事件绑定
+7.1 可以在标签上添加"onXXX"属性，给该属性赋值为一个函数
+7.2 可以在script标签中写代码，先找到这个要绑定事件标签，然后再设置它的"onXXX"属性，等于号后面接上一个匿名函数
+7.3 常见的事件:onclick()、onmouseover()、onmouseout()、onchange()
+
+8. getElementById()通过id找到标签
+
+9. setInterVal(),开启一个循环执行的定时器
+
+10. alert()、prompt()
